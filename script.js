@@ -17,5 +17,5 @@ function sendTokenToExtension() {
     }
   }
   
-  setTimeout(sendTokenToExtension, 5000); // Give the content script some time
+  setTimeout(sendTokenToExtension, 100); // Give the content script some time
   
