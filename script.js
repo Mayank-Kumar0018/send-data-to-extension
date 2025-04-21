@@ -11,9 +11,9 @@ function sendTokenToExtension() {
         "*"
       );
   
-      console.log("✅ Token sent to content script");
+      console.log("Token sent to content script");
     } else {
-      console.log("❌ Token not found in URL");
+      console.log(" Token not found in URL");
     }
   }
   
